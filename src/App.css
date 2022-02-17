@@ -1,0 +1,68 @@
+body {
+  padding: 2rem;
+}
+
+header {
+  background-color: pink;
+  text-transform: uppercase;
+}
+
+.site-brand {}
+
+.site-brand--logo {
+  width: 100px;
+  height: auto;
+}
+
+.top-navigation {
+  /* display: flex; */
+}
+
+.top-navigation--nav {
+  /* display: flex; */
+}
+
+.top-navigation--nav_list {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.navigation-top-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-register-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 2rem;
+  font-size: 1.8rem;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+}
+
+.register-btn {
+  text-transform: uppercase;
+}
+
+.association-dropdown {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.association-dropdown--list {
+  position: absolute;
+  width: 100%;
+}
+
+.association-dropdown--list li {
+  margin: 1rem 1rem 1rem 4rem;
+  position: relative;
+}
