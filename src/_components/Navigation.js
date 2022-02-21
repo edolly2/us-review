@@ -2,13 +2,13 @@ import { BsFillCaretDownFill, BsFillCaretUpFill } from "react-icons/bs";
 
 import { useState } from "react";
 
-const Navigation = () => {
+const Navigation = (props) => {
   const [assocDropdownActive, setAssocDropdownActive] = useState(false);
   return (
     <nav className="top-navigation--nav">
       <ul className="top-navigation--nav_list">
         <li>Home</li>
-        <li>About</li>
+        <li onClick={props.aboutClick}>About</li>
         <li>Contact</li>
         <li>Press Releases</li>
         <li>Agenda</li>
